@@ -19,7 +19,5 @@ char *randWord (int a) {
 
     fclose(fp);
 
-    printf("word: %s\n", temp[a]);
-
     return temp[a];
 }
